@@ -1,5 +1,9 @@
 # Full stack developer Roadmap 2023 :
 
+## Browsers :
+
+- Learn about how browsers are made, browser apis, etc.
+
 ## Communication Protocols :
 
 - It is a protocol which computer systems need to follow when they need to communicate which each other.
@@ -23,4 +27,37 @@
 
 ## Messaging Buses or Pub subs :
 
-- 
+- Using above things we can build basic fullstack apps with authentication. But when we want to build complex apps such as instagram where on login from a different device you get notified on your mail that is the new login made by you, we need Asynchronous Communication like Message buses.
+- Like when we perform a UPI transaction, we get the message from bank after 5-6 seconds about the money been debited. So we understand that message from bank is not an important event but it is required to be performed and a Successful transaction is more important as the feedback needs to be shown on the app.
+- So we offload such tasks which need to reach user but not immediately through other backend processes.
+
+### Workflow :
+
+- Font end sends a request to backend server.
+- Now backend sends request to Email/message server which has the responsibility of emailing/text messaging the user.
+- We didn't use the same backend server to perform above tasks as that server is required to serve immediate important requests.
+- since the backend sends an HTTP request to email server, it will wait until it receives response. In case the email server is down, our backend will keep waiting.
+- To avoid such cases, Messaging buses are used. It is basically a server which sits between backend and email server and has a queue in it. Backend puts the message into that queue and then email server can keep picking up each msg from it. So whenever the email server comes back up, it can pick up the request message from queue and send email accordingly with the delay.
+- This is a type of MicroServices architecture.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
