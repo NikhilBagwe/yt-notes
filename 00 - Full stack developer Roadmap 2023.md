@@ -31,7 +31,7 @@
 - Like when we perform a UPI transaction, we get the message from bank after 5-6 seconds about the money been debited. So we understand that message from bank is not an important event but it is required to be performed and a Successful transaction is more important as the feedback needs to be shown on the app.
 - So we offload such tasks which need to reach user but not immediately through other backend processes.
 
-### Workflow :
+### Workflow including Messaging Buses :
 
 - Font end sends a request to backend server.
 - Now backend sends request to Email/message server which has the responsibility of emailing/text messaging the user.
