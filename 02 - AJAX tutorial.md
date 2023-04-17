@@ -42,6 +42,7 @@ function buttonClickHandler() {
     console.log("On progress")
   }
 
+  // when response is ready
   xhr.onload = function () {
     console.log(this.responseText)
   }
@@ -52,3 +53,4 @@ function buttonClickHandler() {
 ```
 
 - The nikhil.txt file should exist and contain some data which on calling function will be displayed in console.
+- https://www.youtube.com/watch?v=FJZEVmF3eDg 22.00 min
