@@ -22,4 +22,11 @@
 - Backend - NodeJS
 - Smart contract - Solidity
 - Library to integrate Frontend and Smart contract - Ether.js, Web3.js library
+- Technologies must know - Truffle, Hardhat, IPFS, Geth, OpenZeppelin, chainlink
 - As of now blockchain is not scalable and storage is costly. So after making the DAPP, the developer has to optimize it's scalability.
+
+## Most growing fields :
+
+- DeFi
+- NFT
+- Private blockchain - Hyperledger fabric
