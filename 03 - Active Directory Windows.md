@@ -19,6 +19,8 @@
 - Tree - An Active Directory (AD) tree is a collection of domains within a Microsoft Active Directory network.  A tree is a combination of those objects and domains which share the same namespace.
 - Forest - The group of many AD trees is called Forest. An Active Directory forest is the highest level of organization within Active Directory. Suppose if a company buys a new company. In this case we connect the Trees of both companies and form a Forest.
 
+---
+
 ## LDAP : 
 
 - Lightweight Directory Access Protocol.
@@ -29,6 +31,12 @@
 ## Working of LDAP :
 
 - When user enters it's ID and password in a system/app, LDAP makes a call to Server and checks if the User is valid or not.
+
+## Why use LDAP ?
+
+- Suppose you are working in a company of 10000 employees and you want to apply diff. policies to each groups(basically departments of company like HR, Accounts,etc) consisting of users.
+- This task cannot be performed manually.
+- Thus, with the help of LDAP we can create groups and attach policy to them easily.
 
 
 
