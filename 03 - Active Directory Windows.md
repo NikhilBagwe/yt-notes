@@ -18,3 +18,25 @@
 - Domain - An Active Directory domain (AD domain) is a collection of objects within a Microsoft Active Directory network.
 - Tree - An Active Directory (AD) tree is a collection of domains within a Microsoft Active Directory network.  A tree is a combination of those objects and domains which share the same namespace.
 - Forest - The group of many AD trees is called Forest. An Active Directory forest is the highest level of organization within Active Directory. Suppose if a company buys a new company. In this case we connect the Trees of both companies and form a Forest.
+
+## LDAP : 
+
+- Lightweight Directory Access Protocol.
+- With help of LDAP we can access Directory services.
+- Cross platform
+- AD is a "Directory Service DB" and LDAP is a protocol used to talk with AD.
+
+## Working of LDAP :
+
+- When user enters it's ID and password in a system/app, LDAP makes a call to Server and checks if the User is valid or not.
+
+
+
+
+
+
+
+
+
+
+
